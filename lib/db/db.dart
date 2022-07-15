@@ -33,6 +33,20 @@ class DatabaseHelper {
         "password": "password",
         "pic": "https://avatars.githubusercontent.com/u/1736813"
       });
+      await db.insert('user', {
+        "name": "Kiang Hong Law",
+        "username": "kianghong",
+        "password": "password",
+        "pic": "https://avatars.githubusercontent.com/u/14790172"
+      });
+      await db.insert('user', {
+        "name": "Khairul Syafiq",
+        "username": "khairul",
+        "password": "password",
+        "pic":
+            "https://media-exp2.licdn.com/dms/image/D5603AQEpjiB_4SY2ew/profile-displayphoto-shrink_400_400/0/1636116407686?e=1663200000&v=beta&t=IsEJdow-qX9sBzWNYjFGJZ33YLVJ4ugKcIGxDfD1XFw"
+      });
+      // khairul@lionsbot.com
     });
     return db;
   }
