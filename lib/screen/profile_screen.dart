@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:lionsbot/screen/remote_controll_screen.dart';
+import 'package:lionsbot/screen/remote_control_screen.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
 import '../controller/auth_controller.dart';
@@ -324,38 +324,38 @@ class _ProfileScreenState extends State<ProfileScreen>
           ListView(
             padding: EdgeInsets.fromLTRB(30, 0, 30, 0),
             children: <Widget>[
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),
-              listItem("Sucessfull Operaton", "8m ago",
-                  "+10 Point Sucessfully Operated Roboots without any issues "),
+              listItem("Sucessful Operation", "8m ago",
+                  "+10 Point Sucessfully Operated Robots without any issues "),
               Divider(
                 color: Colors.black,
               ),

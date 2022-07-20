@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'CustomInnerContent.dart';
+import 'custom_inner_content.dart';
 
 class CustomScrollViewContent extends StatelessWidget {
   const CustomScrollViewContent({Key? key}) : super(key: key);
