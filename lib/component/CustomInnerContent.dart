@@ -35,7 +35,7 @@ class _CustomInnerContentState extends State<CustomInnerContent> {
             SizedBox(height: 20),
             Row(children: [
               Padding(
-                  padding: EdgeInsets.fromLTRB(30, 20, 0, 0),
+                  padding: EdgeInsets.fromLTRB(30, 30, 0, 0),
                   child: Text(
                       "Speed : " + _currentSliderValue.round().toString(),
                       style: TextStyle(
