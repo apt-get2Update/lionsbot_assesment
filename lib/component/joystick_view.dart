@@ -43,12 +43,16 @@ class JoystickView extends StatelessWidget {
                   )),
               Positioned(
                 child: Draggable<CircleView>(
-                    child: CircleView.joystickInnerCircle(
-                      actualSize / 2,
-                    ),
-                    feedback: CircleView.joystickInnerCircle(
-                      actualSize / 2,
-                    )),
+                  child: CircleView.joystickInnerCircle(
+                    actualSize / 2,
+                  ),
+                  feedback: CircleView.joystickInnerCircle(
+                    actualSize / 2,
+                  ),
+                  childWhenDragging: CircleView.joystickInnerchildCircle(
+                    actualSize / 2,
+                  ),
+                ),
                 top: joystickInnerPosition.dy + 25,
                 left: joystickInnerPosition.dx + 25,
               ),

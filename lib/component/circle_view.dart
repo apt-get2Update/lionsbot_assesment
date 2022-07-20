@@ -63,4 +63,20 @@ class CircleView extends StatelessWidget {
           )
         ],
       );
+  factory CircleView.joystickInnerchildCircle(double size) => CircleView(
+        size: size,
+        color: Color.fromARGB(255, 64, 69, 192),
+        border: Border.all(
+          color: Color.fromARGB(255, 64, 69, 192),
+          width: 2.0,
+          style: BorderStyle.solid,
+        ),
+        boxShadow: <BoxShadow>[
+          BoxShadow(
+            color: Colors.transparent,
+            spreadRadius: 8.0,
+            blurRadius: 8.0,
+          )
+        ],
+      );
 }
