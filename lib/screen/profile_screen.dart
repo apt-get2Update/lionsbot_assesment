@@ -137,7 +137,10 @@ class _ProfileScreenState extends State<ProfileScreen>
               icon,
               color: Colors.blue,
             ),
-            Text(lable)
+            Text(
+              lable,
+              style: TextStyle(fontSize: 12),
+            )
           ])),
       onPressed: onPressed,
     );
@@ -312,7 +315,7 @@ class _ProfileScreenState extends State<ProfileScreen>
 
   Widget buildView() {
     final double top = coverHeight - profileHeight / 1.5;
-    final double height = (MediaQuery.of(context).size.height / 2);
+    final double height = (MediaQuery.of(context).size.height / 2.7);
     return SizedBox(
         height: height,
         // margin: EdgeInsets.only(bottom: bottom),
