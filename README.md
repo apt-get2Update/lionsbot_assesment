@@ -8,12 +8,3 @@ To create a functional mobile application for users to:
 ## Getting Started
  - flutter pub get
  - flutter run
-## Useage
-  Please use below Credentioals to login
-### User - 1
-    username: kianghong
-    password: password
-### User - 2
-     username: khairul
-     password: password
-     
